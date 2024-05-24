@@ -1,0 +1,30 @@
+{
+  "name": "asistentevirtual",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kiotoks/VirtualAssist.git"
+  },
+  "author": "Nicolas Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kiotoks/VirtualAssist/issues"
+  },
+  "homepage": "https://github.com/Kiotoks/VirtualAssist#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^4.47.1",
+    "package.json": "^2.0.1",
+    "path": "^0.12.7"
+  }
+}
